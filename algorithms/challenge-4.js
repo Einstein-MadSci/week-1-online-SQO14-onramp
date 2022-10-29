@@ -22,8 +22,7 @@ function calculateGrade(marks) {
   } else if (gradesAverage >= 80 && gradesAverage <= 89) {
     // console.log("B");
     return "B";
-  } //(gradesAverage >= 90 && gradesAverage <= 100)
-  else {
+  } else {
     // console.log(gradesAverage, "A");
     return "A";
   }
